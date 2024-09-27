@@ -5,7 +5,7 @@ public class Nut {
 
     public Nut() {
         Random random = new Random();
-        this.weight = (random.nextInt(81)+100/10.0);
+        this.weight = ((random.nextInt(81)+100)/10.0);
     }
 
     @Override
